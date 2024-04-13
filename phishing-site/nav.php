@@ -4,7 +4,7 @@
             if($pathParts['filename']=='main'){
                 print 'activePage';
             }
-            ?>" href="index.php">Home&nbsp;</a>
+            ?>" href="main.php">Home&nbsp;</a>
             
             <a class="<?php
             if($pathParts['filename']=='form'){

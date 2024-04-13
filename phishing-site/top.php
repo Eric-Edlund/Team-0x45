@@ -8,11 +8,12 @@ $pathParts=pathinfo($phpSelf);
 <!-- Begin Head -->
     <head>
         <meta charset="utf-8">
-        <title>CSS 008-C Lab Two: Chess</title>
+        <title>Phishing Relief</title>
         <meta name="author" content="Alexander Schaefer">
-        <meta name="description" content="Phishing Project for the 2024 Hackathon">
+        <meta name="description" content="Phishing Project for the 2024 UVM Hackathon">
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         
         <link rel="stylesheet" 
         href="css/custom.css?version=<?php print time(); ?>" 
