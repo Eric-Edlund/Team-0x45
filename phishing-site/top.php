@@ -11,7 +11,7 @@ $pathParts=pathinfo($phpSelf);
         <title>Phishing Relief</title>
         <meta name="author" content="Alexander Schaefer">
         <meta name="description" content="Phishing Project for the 2024 UVM Hackathon">
-        
+        <link rel="SHORTCUT ICON" type="image/x-icon" href="images/logo.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
