@@ -11,6 +11,12 @@
                 print 'activePage';
             }
             ?>" href="form.php">Form&nbsp;</a>
+
+            <a class="<?php
+            if($pathParts['filename']=='privacyPolicy'){
+                print 'activePage';
+            }
+            ?>" href="privacyPolicy.php">Privacy Policy&nbsp;</a>
             
         </nav>
 <!--nav.php run end-->
