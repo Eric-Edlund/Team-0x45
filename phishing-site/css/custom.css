@@ -1,1 +1,59 @@
+body{
+    padding: 1%;
+   font-family:Verdana, Tahoma, sans-serif;
+   margin: auto;
+   border: thin solid var(--main-color);
+   background-color: rgb(210, 240, 210);
+   max-width: 70vw;
 
+}
+
+nav a:link{
+    background-color: #fff;
+    color: #009;
+    text-decoration: none;
+}
+nav a:visited{
+    color: #009;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a{
+    display: inline-block;
+    width: 19%;
+}
+nav{
+    border: thin solid yellow;
+    background-color: white;
+    text-align: center; 
+    grid-area: nav;
+    position: relative;
+    display: grid;
+grid-template-rows: auto;
+grid-template-columns: auto auto auto auto auto;
+gap: 10vw;
+justify-content: center;
+}
+.activePage{
+    color:red;
+}
+
+main{
+    
+   display: grid;
+   grid-template-columns: auto auto;
+   align-content: start;
+   ;
+}
+
+.form-main{
+    display: grid;
+    grid-template-rows: auto auto ;
+   grid-template-columns: auto;
+   align-content: start;
+   grid-template-areas:
+   "form-head"
+   "form-section"
+   ;
+}
