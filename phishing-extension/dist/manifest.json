@@ -1,0 +1,18 @@
+{
+   "name": "Phishing Extension",
+   "description": "Detects and reports phishing",
+   "version": "1.0",
+   "manifest_version": 3,
+   "permissions": [
+      "activeTab",
+      "scripting"
+   ],
+   "content_scripts": [
+      {
+         "js": ["checkOutlook.js"],
+         "matches": [
+            "https://outlook.office.com/*"
+         ]
+      }
+   ]
+}
