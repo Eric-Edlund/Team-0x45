@@ -15,8 +15,15 @@ export function addReportButtonToSite(): boolean {
     button.setAttribute("target", "_blank")
     button.innerHTML = "Report Phishing"
     button.classList.add("groupContainer-186")
+    button.style.color = "green"
+    button.style.flexGrow = "1"
 
-    parentDiv.appendChild(button)
+    const buttonHolder = document.createElement('div')
+    buttonHolder.classList.add("ms-Button-flexContainer")
+    buttonHolder.classList.add("flexContainer-158")
+
+    buttonHolder.append(button)
+    parentDiv.appendChild(buttonHolder)
 
     return true
 }
