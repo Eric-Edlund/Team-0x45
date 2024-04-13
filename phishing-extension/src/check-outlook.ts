@@ -1,5 +1,6 @@
 // Ran when outlook is loaded
 
+import { addReportButtonToSite } from "./add-report-button";
 import { queryReportedPhishes } from "./query";
 
 init();
@@ -50,11 +51,7 @@ async function init(): Promise<void> {
   observer.observe(composePane, config);
   checkPaneForPhish()
 
-  // fetch("http://aschaef1.w3.uvm.edu/Phishing/form.php");
-
-  // Later, you can stop observing
-  // observer.disconnect();
-
+  addReportButtonToSite()
 }
 
 let cachedPhishes: string[]
